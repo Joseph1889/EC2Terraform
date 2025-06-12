@@ -1,0 +1,29 @@
+# Archivos y directorios generados por Terraform
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+terraform.tfvars
+terraform.tfvars.json
+
+# Directorios ocultos y temporales
+.terraform/
+.terraform.lock.hcl
+
+# Archivos de salida opcionales
+plan.out
+
+# Archivos sensibles manuales
+vault-password.txt
+secrets.yaml
+*.pem
+*.key
+*.crt
+
+# Archivos de sistema (opcional, pero recomendado)
+.DS_Store
+Thumbs.db
