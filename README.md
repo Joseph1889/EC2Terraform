@@ -8,7 +8,7 @@ Este proyecto utiliza Terraform para aprovisionar dos instancias EC2 en AWS. Es 
 
 - Dos instancias EC2 (`t2.micro y t3.medium`)
 - Desplegadas en una misma VPC y subred
-- Uso de un grupo de seguridad por defecto o personalizado
+- Uso de un grupo de seguridad personalizado para puertos 22, 80, 443 y 8443
 - Par de llaves para acceso SSH creado previamente en la consola de aws
 
 ## ✅ Requisitos Previos
