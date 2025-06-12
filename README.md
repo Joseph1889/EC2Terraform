@@ -11,6 +11,8 @@ Este proyecto utiliza Terraform para aprovisionar dos instancias EC2 en AWS. Es 
 - Uso de un grupo de seguridad personalizado para puertos 22, 80, 443 y 8443
 - Par de llaves para acceso SSH creado previamente en la consola de aws
 
+![Diagrama de EC2-Terraform](./public/TerraformEC2.png)
+
 ## ✅ Requisitos Previos
 
 - [Terraform](https://developer.hashicorp.com/terraform/downloads) versión 1.3 o superior
