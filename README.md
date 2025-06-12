@@ -10,8 +10,9 @@ Este proyecto utiliza Terraform para aprovisionar dos instancias EC2 en AWS. Es 
 - Desplegadas en una misma VPC y subred
 - Uso de un grupo de seguridad personalizado para puertos 22, 80, 443 y 8443
 - Par de llaves para acceso SSH creado previamente en la consola de aws
-
-![Diagrama de EC2-Terraform](./public/TerraformEC2.png)
+<p align="center">
+<img src = "./public/TerraformEC2.png" alt = "Diagrama de EC2-Terraform" width="600">
+</p>
 
 ## ✅ Requisitos Previos
 
@@ -83,4 +84,7 @@ Finalmente, desplegar la imagen del contenedor:
    ```
 
 Luego se podrá validar el correcto despliegue accediendo mediante `https//:<IP_PUBLICA>`, donde luego de ingresar credenciales se podra viusalizar:
-![PMM DAshboard](./public/PMMServer.png)
+
+<p align="center">
+<img src= "./public/PMMServer.png" alt="PMM DAshboard" width="600"/> 
+</p>
